@@ -104,7 +104,7 @@ describe("add method should", () => {
 
   it("allow multiple delimiters even the regex characters", () => {
     const expectedResult: number = 10;
-    const numbers: string = "//[*+?.^$|()[]][%e%]\n2*+?.^$|()3%e%5";
+    const numbers: string = "//[*+?.^$|()][%e%]\n2*+?.^$|()3%e%5";
 
     const result: number = add(numbers);
 
